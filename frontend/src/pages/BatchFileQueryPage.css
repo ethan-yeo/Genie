@@ -1,0 +1,76 @@
+.dropzone {
+    border: 2px dashed #007bff; /* Example styling */
+    border-radius: 5px;
+    min-height: 200px; /* Minimum height */
+    min-width: 400px; /* Minimum width */
+    height: 400px; /* Fixed height (optional) */
+    width: 800px; /* Fixed width (optional) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; /* Add some margin */
+    padding: 20px; /* Inner padding */
+}
+
+.dropzone:hover {
+    border-color: #0056b3;
+}
+
+.prompt-and-submit-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Add space between the textarea and button */
+    margin-top: 20px; /* Add some margin at the top */
+  }
+
+  
+.prompt-box {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: white;
+    color:black;
+}
+
+.submit-button {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.submit-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.reset-button {
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 10px 20px;
+    background-color: #f44336; /* Red color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.reset-button:hover {
+    background-color: #d32f2f; /* Darker red */
+}
+.reset-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
